@@ -72,7 +72,7 @@ Here are some directions for those that would like to run tutorial using the ana
 
 The software you will need to install are:
 
-- [PAccel code](https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/)
+- [PAccel code](Directory ./Particle_Acceleration/00_paccel_code/ on your VM or https://grzegorz_kowal@bitbucket.org/grzegorz_kowal/paccel.git)
 - [GNUPlot](http://gnuplot.info)
 - [Matplotlib](http://matplotlib.org/) 
 

@@ -8,8 +8,7 @@ This is the tutorial for the hands on, a practical session on the simulations of
 - to learn how to analyze a single particle motion,
 - to learn how to analyze statistical properties of motion of an ensemble of particles.
 
-- [Pre-requisites](./pre-requisites.md), including instructions for [downloading](./pre-requisites.md#download-links) and [installing](./pre-requisites.md#instructions-for-installing-vm) the VM
-- [Tutorials](#tutorials)
+[Pre-requisites](./pre-requisites.md), including instructions for [downloading](./pre-requisites.md#download-links) and [installing](./pre-requisites.md#instructions-for-installing-vm) the VM
 
 # Tutorials
 

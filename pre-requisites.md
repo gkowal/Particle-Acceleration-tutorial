@@ -41,11 +41,11 @@ After downloading the VM file, follow the instructions below.
 4. Click on `Continue` and on the next screen click on `Import`. This step may take a few minutes.
 5. Once you do that, you should see a window that looks something like the following. Click `Start` to start up the VM. You should see a window pop up, and see Linux starting up inside that window.
 
-![](./figures/virtualbox.png "VirtualBox window listing the VM after successfull import")
+![](https://github.com/rsnemmen/Fermi-LAT-tutorial/blob/master/figures/virtualbox.png "VirtualBox window listing the VM after successfull import")
 
 6. In the end, you should have a window that looks like this. ~~Contact the organizers for the password~~ The password is `saopaulo`. You are good to go!
 
-![](./figures/welcome_screen.png "VM after booting")
+![](https://github.com/rsnemmen/Fermi-LAT-tutorial/blob/master/figures/welcome_screen.png "VM after booting")
 
 # Some potential VM issues
 

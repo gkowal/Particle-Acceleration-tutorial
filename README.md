@@ -64,7 +64,7 @@ INFO      : deallocating the particle
 INFO      : deallocating the field components
 ```
 
-It also produces a file called `output.dat` which contains all particle parameters, like position, velocity components, energy, etc.
+It also produces an ASCII file called `output.dat` which contains all particle parameters, like position, velocity components, energy, etc.
 
 # Tutorials
 
@@ -88,5 +88,5 @@ The are a few runtime parameters which can be changed in the file `params.in`:
 
 In order to visualize the trajectory, energy or velocity components (parallel and perpendicular to the local field) you can use provided GNUPlot scripts: `plot_trajectory.gpl`, `plot_energy.gpl`, `plot_velocity.gpl`
 
-**Task to do**: change some of these parameters and determine the Larmor radius using the data from file `./output.dat`.
+**Task to do**: change some of these parameters and visualize the particle trajectory. Determine the Larmor radius in each case using the data from file `./output.dat`.
 

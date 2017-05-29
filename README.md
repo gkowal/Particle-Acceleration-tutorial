@@ -90,3 +90,24 @@ In order to visualize the trajectory, energy or velocity components (parallel an
 
 **Task to do**: change some of these parameters and visualize the particle trajectory. Determine the Larmor radius in each case using the data from file `./output.dat`.
 
+
+
+## Tutorial 2 - Proton motion in a non-uniform magnetic field. Magnetic mirror.
+
+In this tutorial we integrate and visualize motion of a proton in magnetic field which has a varying curvature. As the results, the particle is trapped bouncing back and forth. This effect is called **magnetic mirror** or **magnetic bottle**.
+
+Initial steps:
+- go to `./00_paccel code/`,
+- call `make clean` in the terminal,
+- make sure the line `TEST=` in make.config is set to `ISLAND`,
+- compile the code: `make`,
+- copy the executable file `paccel.x` to directory `../02_Bmirror/`: `cp ./paccel.x ../02_Bmirror/`,
+- go to directory `../02_Bmirror/`: `cd  ../02_Bmirror/`.
+
+Additionally, to the runtime parameters described in the previous tutorial, you can changed one parameter more in file `params.in`:
+- `bamp` - determines the eccentricy of the magnetic field loop; if `bamp = 0.0` the loop is perpectly circular; for `bamp > 0` it is elongated toward the X direction;
+
+In order to visualize the trajectory, energy or velocity components (parallel and perpendicular to the local field) you can use provided GNUPlot scripts: `plot_trajectory.gpl`, `plot_energy.gpl`, `plot_velocity.gpl`
+
+**Task to do**: As in the previous tutorial, change some of these parameters and visualize the particle trajectory. Determine the Larmor radius in each case using the data from file `./output.dat`. Determine the mirror effect condition.
+

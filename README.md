@@ -86,7 +86,7 @@ The are a few runtime parameters which can be changed in the file `params.in`:
 - `vpar` and `vper` for the parallel and perpendicular component with respect to the direction of the local field, respectively,
 - `bini` - the strength of the magnetic field.
 
-In order to visualize the trajectory, energy or velocity components (parallel and perpendicular to the local field) you can use provided GNUPlot scripts: `plot_trajectory.gpl`, `plot_energy.gpl`, `plot_velocity.gpl`
+In order to visualize the trajectory, energy or velocity components (parallel and perpendicular to the local field) you can use provided [GNUPlot](http://www.gnuplot.info/) scripts: `plot_trajectory.gpl`, `plot_energy.gpl`, `plot_velocity.gpl`
 
 **Task to do**: change some of these parameters and visualize the particle trajectory. Determine the Larmor radius in each case using the data from file `./output.dat`.
 

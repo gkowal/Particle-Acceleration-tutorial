@@ -131,4 +131,4 @@ Above, there are provided the dimensions of arrays stored in each file, where Np
 
 In the same directory, you will find several scripts written in python, which with the help of packages NumPy and Matplotlib generate evolution of some quantities, e.g. the energy distribution evolution shown below.
 
-
+![](./energy_histogram.png "Particle Energy Distribution Evolution")

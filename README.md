@@ -67,3 +67,26 @@ INFO      : deallocating the field components
 It also produces a file called `output.dat` which contains all particle parameters, like position, velocity components, energy, etc.
 
 # Tutorials
+
+## Tutorial 1 - Proton motion in a uniform magnetic field.
+
+In this tutorial we integrate and visualize motion of a proton in magnetic field which is uniform.
+
+Initial steps:
+- go to `./00_paccel code/`,
+- call `make clean` in the terminal,
+- make sure the line `TEST=` in make.config is set to `WAVE`,
+- compile the code: `make`,
+- copy the executable file `paccel.x` to directory `../01_Buniform/`: `cp ./paccel.x ../01_Buniform/`,
+- go to directory `../01_Buniform/`: `cd  ../01_Buniform/`.
+
+The are a few runtime parameters which can be changed in the file `params.in`:
+- `ptype = 'p'` or `ptype = 'e'` for proton or electron, respectively,
+- `xc`, `yc`, `zc` - the initial particle position,
+- `vpar` and `vper` for the parallel and perpendicular component with respect to the direction of the local field, respectively,
+- `bini` - the strength of the magnetic field.
+
+In order to visualize the trajectory, energy or velocity components (parallel and perpendicular to the local field) you can use provided GNUPlot scripts: `plot_trajectory.gpl`, `plot_energy.gpl`, `plot_velocity.gpl`
+
+**Task to do**: change some of these parameters and determine the Larmor radius using the data from file `./output.dat`.
+

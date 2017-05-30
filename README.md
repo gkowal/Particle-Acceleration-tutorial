@@ -90,7 +90,7 @@ The are a few runtime parameters which can be changed in the file `params.in`:
 - `vpar` and `vper` for the parallel and perpendicular component with respect to the direction of the local field, respectively, in units of the speed of light, c,
 - `bini` - the strength of the magnetic field.
 
-**Task to do**: Change some of these parameters and visualize the particle trajectory.
+**Tasks to do**: Change some of these parameters and visualize the particle trajectory.
 - Determine the Larmor radius and gyroradius after each modification using the data from file `./output.dat`.
 - Using the code output determine the unit conversion necessary to express all results in physical units.
 
@@ -112,7 +112,7 @@ Initial steps:
 Additionally to all runtime parameters described in the previous tutorial you can also change:
 - `bamp` - determines the eccentricy of the magnetic field loop; if `bamp = 0.0` the loop is perpectly circular; for `bamp > 0` it is elongated toward the X direction;
 
-**Task to do**: As in the previous tutorial, change some of these parameters and visualize the particle trajectory.
+**Tasks to do**: As in the previous tutorial, change some of these parameters and visualize the particle trajectory.
 - Determine the Larmor radius in each case using the data from file `./output.dat`.
 - Determine the moments at which the particle changes the direction of parallel motion.
 - Determine the mirror effect condition considering conversation of the magnetic moment and total energy.
@@ -141,7 +141,7 @@ Now, you can continue with the PAccel code compilation:
 - go to directory `../03_Bturbulent/`: `cd  ../03_Bturbulent/`.
 - run the paccel executable: `./paccel.x`
 
-**Task to do**: Change the initial position and velocity of particle some of these parameters and visualize the particle trajectory.
+**Tasks to do**: Change the initial position and velocity of particle some of these parameters and visualize the particle trajectory.
 - Write a script in python to calculate the particle energy gain/loss rate and plot how it changes over time (to read ASCII data you can use subroutine [numpy.loadtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.loadtxt.html)).
 - Determine the mean energy gain rate.
 
@@ -162,3 +162,13 @@ Above, there are provided the dimensions of arrays stored in each file, where Np
 In the same directory, you will find several scripts written in python, which with the help of packages NumPy and Matplotlib generate evolution of some quantities, e.g. the energy distribution evolution shown below.
 
 ![](./energy_histogram.png "Particle Energy Distribution Evolution")
+
+**Tasks to do**: Using the provided data (e.g. files `time.fits.gz` and `energy.fits.gz`), analyze the final energy distribution of particles:
+- prepare the log-log plot of particle energy histogram,
+- determine the particle temperature by fitting the thermal distribution,
+- determine the inclination of the high energy tail.
+
+
+# Contact
+
+Grzegorz Kowal: <grzegorz.kowal@usp.br>

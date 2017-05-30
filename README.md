@@ -10,6 +10,10 @@ This is the tutorial for the hands on, a practical session on the simulations of
 
 [Pre-requisites](./pre-requisites.md), including instructions for [downloading](./pre-requisites.md#download-links) and [installing](./pre-requisites.md#instructions-for-installing-vm) the VM
 
+# Introductory presentation
+
+A copy of the introductory presentation is in the file [Intro.pdf](https://github.com/gkowal/Particle-Acceleration-tutorial/blob/master/Intro.pdf)
+
 # PAccel code
 
 It is a Fortran code which integrates the particle trajectory (proton or electron) in a predefined uniform or curved magnetic field or magnetic field taken from an external simulation.

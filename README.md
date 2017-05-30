@@ -1,12 +1,12 @@
 # Particle Acceleration Hands-On
 
-Tutorial for Particle Acceleration hands on session: CTA School 2017, Sao Paulo
+Tutorial for Particle Acceleration Hands-On session: CTA School 2017, Sao Paulo.
 
 This is the tutorial for the hands on, a practical session on the simulations of test particle acceleration for the [São Paulo School of Advanced Science on High Energy and Plasma Astrophysics in the CTA Era](http://www.astro.iag.usp.br/~highenastro/). Theere are several goals of this activity:
 - to learn how to integrate the particle equation of motion numerically,
-- to help you understand how a charged particle moves in the magnetic field, what are the factors this motion depends of,
+- to help you understand how a charged particle moves in magnetic fields,
 - to learn how to analyze a single particle motion,
-- to learn how to analyze statistical properties of motion of an ensemble of particles.
+- to learn how to analyze statistical properties of motion of an ensemble of particles, such as the energy distribution.
 
 [Pre-requisites](./pre-requisites.md), including instructions for [downloading](./pre-requisites.md#download-links) and [installing](./pre-requisites.md#instructions-for-installing-vm) the VM
 
@@ -16,14 +16,14 @@ A copy of the introductory presentation is in the file [Intro.pdf](https://githu
 
 # PAccel code
 
-It is a Fortran code which integrates the particle trajectory (proton or electron) in a predefined uniform or curved magnetic field or magnetic field taken from an external simulation.
+It is a Fortran code which integrates the particle trajectory (proton or electron) in a predefined uniform or curved magnetic field or magnetic and plasma velocity fields taken from an external simulation.
 
-The code is provided in directoy Particle_Acceleration/00_paccel of your virtual machine image. It can be also downloaded or cloned from my GitHub repository:
+The code is provided in directory `~/Particle_Acceleration/00_paccel_code/` of your virtual machine image. It can be also downloaded or cloned from the GitHub repository:
 ```
 [fermi@localhost ~]$ git clone https://github.com/gkowal/paccel.git
 ```
 There are a few important files which you may want to modify:
-- `make.conf` in which several compilation flags are included,
+- `make.conf` in which several compilation flags are included, in particular the test problem is set from here,
 - `params.in` in which the runtime parameters can be changes.
 
 Once compiled, you can run `./paccel.x` which produces the output like
@@ -68,7 +68,7 @@ INFO      : deallocating the particle
 INFO      : deallocating the field components
 ```
 
-It also produces an ASCII file called `output.dat` which contains all particle parameters, like position, velocity components, energy, etc.
+It also produces an ASCII file called `output.dat` which contains all particle parameters, such as the position coordinates, velocity components, energy, etc.
 
 # Tutorials
 

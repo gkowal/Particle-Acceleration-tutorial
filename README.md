@@ -150,7 +150,7 @@ Now, you can continue with the PAccel code compilation:
 
 In this tutorial we analyze the statistical properties of an ensemble of test particles. Determine their power spectrum, identify the thermal and non-thermal part, determine the changes of temperature, etc.
 
-The files containig already integrated particle trajectories are provided in your VM image, in the directory `~/Particle_Acceleration/03_Bturbulent/`. We have five files containing data for 1000 particles:
+The files containig already integrated particle trajectories are provided in your VM image, in the directory `~/Particle_Acceleration/04_Bturbulent_multi/`. We have five files containing data for 1000 particles:
 - `time.fits.gz` - time moments for all particle snapshots (Ns);
 - `components.fits.gz` - velocity components (total, parallel and perpendicular) for all particles (3 x Np x Ns);
 - `energy.fits.gz` - the kinetic energy for all particles at all snapshots (Np x Ns);

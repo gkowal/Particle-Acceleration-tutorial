@@ -1,0 +1,35 @@
+#
+# specify particle type
+#
+ptype     = 'p'
+xc        = 0.0
+yc        = 0.0
+zc        = 0.0
+vpar      = 0.01
+vper      = 0.1
+bini      = 0.5
+#
+# specify plasma parameters
+#
+c         = 20.0
+dens      =  1.0
+#
+# specify time and geometry
+#
+tunit     = 's'
+tmulti    = 1.0
+#
+# specify when write data and stop the integration
+#
+output    = 'i'
+ndumps    = 10
+tmin      = 1.0d-03
+tmax      = 1.0d+01
+#
+# specify integration quality
+#
+method    = 'rk4'
+maxeps    = 1.0e-15
+maxtol    = 1.0d-07
+dtmax     = 1.0d-01
+dtini     = 1.0d-08

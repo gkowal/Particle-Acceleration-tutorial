@@ -1,0 +1,49 @@
+#
+# specify input data
+#
+idir      = '/home/kowal/Research/projects/acceleration/multiple-particles/multi_current_sheet/proton/2d/bz0.0/1024/'
+odir      = './'
+fformat   = 'hdf5'
+ftype     = 'p'
+fnumber   = 40
+#
+# specify particle type
+#
+ptype     = 'p'
+xc        = 1.0
+yc        = 0.0
+zc        = 0.0
+vpar      = 0.01
+vper      = 0.001
+bini      = 1.0
+bshr      = 0.05
+bamp      = 0.1
+vamp      = 0.1
+vrat      = 0.75
+freq      = 1.0e+2
+epar      = 0.0
+#
+# specify plasma parameters
+#
+c         = 20.0
+dens      =  1.0
+#
+# specify time and geometry
+#
+tunit     = 's'
+tmulti    = 1.0
+#
+# specify when write data and stop the integration
+#
+output    = 'i'
+ndumps    = 100
+tmin      = 1.0e-3
+tmax      = 2.0e+2
+#
+# specify integration quality
+#
+method    = 'si6'
+maxeps    = 1.0e-15
+maxtol    = 1.0e+0
+dtmax     = 1.0e-4
+dtini     = 1.0e-4

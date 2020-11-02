@@ -1,0 +1,10 @@
+#!/usr/bin/gnuplot
+#
+set xlabel 'Time'
+set ylabel 'Kinetic Energy'
+
+set log
+
+plot 'output.dat' u 1:13 w l t 'Ekin'
+
+pause -1

@@ -1,0 +1,9 @@
+#!/usr/bin/gnuplot
+#
+set xrange [-1.5:1.5]
+set yrange [-1.5:1.5]
+set zrange [-1.5:1.5]
+
+splot 'output.dat' u 2:3:4 w l
+
+pause -1

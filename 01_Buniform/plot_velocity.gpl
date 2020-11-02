@@ -1,0 +1,11 @@
+#!/usr/bin/gnuplot
+#
+set xlabel 'Time'
+set ylabel 'Velocity'
+set log
+set xrange [1.0e-3:1.0e+2]
+set yrange [1.0e-4:1.0e+0]
+
+plot 'output.dat' u 1:8 w l t 'V', '' u 1:9 w l t 'Vpar', '' u 1:10 w l t 'Vper'
+
+pause -1
